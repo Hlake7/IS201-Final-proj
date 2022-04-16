@@ -1,8 +1,9 @@
 body {
-    background-color: rgb(195, 165, 129);
+    background-color: black;
 }
 .unorderlist {
     list-style-type: none;
+   text-align: right;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -20,6 +21,38 @@ body {
     text-decoration: none;
   }
   
-  .navbar-nav li a:hover {
+  li a:hover {
     background-color: #111;
+  }
+  .homeBG {
+    background-image: url('../images/space.jpg');
+        background-size:cover;
+        background-position: Top center;
+  }
+
+  .whiteword {
+    list-style-type: none;
+    text-align: center;
+    color: white;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+  }
+  a:link {color: white;}  
+  a:visited {color: whitesmoke} 
+  .common {
+         background-color: black;
+         border: solid 2px black;
+         position: absolute;
+  }
+  
+  .footer{
+    bottom: 3px;
+    height: 50px;
+    left: 5px;
+    right: 5px;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    position: fixed;
   }
